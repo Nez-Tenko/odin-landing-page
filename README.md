@@ -4,7 +4,8 @@ This is a landing page based on the two design images found in this directory. T
 
 To view this webpage use the link:
 your-github-username.github.io/your-github-repo-name
-nex-tenko.github.io/odin-landing-page
+
+nez-tenko.github.io/odin-landing-page
 
 Credit:
 Photo: "Green Leafed Tree" by veeterzy
