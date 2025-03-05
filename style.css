@@ -1,0 +1,221 @@
+html, body {
+  height:100%;
+  width:100%;
+}
+
+body {
+  /*
+  height:100%;
+  width:100%;
+  */
+  display:flex;
+  flex-direction:column;
+  padding:0;
+  margin:0;
+}
+
+/**************************************************************       
+*                          Header 
+***************************************************************/
+.header {
+  padding:0px 200px;
+  display:flex;
+  justify-content:start;
+  background-color:#1F2937;
+  font-family:'Roboto';
+  font-size:24px;
+  /*flex-basis:5%;*/
+}
+
+#header-logo {
+  font-weight:bold;
+  color:#F9FAF8;
+}
+
+.right-links {
+  display:flex;
+  margin-left:auto;
+  color:#E5E7EB;
+  font-size:18px;
+  gap:32px;
+}
+
+
+/********************************************************************
+*                     Awesome Section w/ Picture
+* *******************************************************************/
+.container1 {
+  display:flex;
+  justify-content:center;
+  /*flex-basis:20%;*/
+  background-color:#1F2937;
+  padding:64px;
+  gap:64px;
+  padding-right:32px;
+}
+
+.content1 {
+  display:flex;
+  flex-direction:column;
+  width:300px;
+  gap:8px;
+}
+
+#awesome {
+  font-size:48px;
+  font-weight:900;
+  color:#F9FAF8;
+}
+
+#awesome-sub {
+  font-size:18px;
+  color:#E5e7EB;
+} 
+
+#sign-up-button1 {
+  color:#F9FAF8;
+  background-color:#3882F6;
+  width:80px;
+  padding-left:8px;
+  padding-right:8px;
+  border-radius:4px;
+  border:2px solid #1F2937;
+
+}
+
+#tree-pic {
+  width:500px;
+  height:200px;
+}
+
+/*********************************************************************
+*                      Some random info
+* ********************************************************************/
+.container2 {
+  flex-basis:25%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  /*background-color:tomato;*/
+  gap:40px;
+  padding:32px;
+  padding-bottom:64px;
+}
+
+.content2 {
+  display:flex;
+  justify-content:space-between;
+  gap:32px;
+}
+
+#random {
+  font-size:36px;
+  font-weight:bold;
+  color:#1F2937;
+}
+
+#whitebox {
+  width:150px;
+  height:150px;
+  border:solid;
+  color:#3882F6;
+  border-radius:8px;
+}
+
+.card {
+  display:flex;
+  flex-direction:column;
+  width:150px;
+  flex-wrap:wrap;
+  text-align:center;
+  gap:8px;
+}
+
+
+/******************************************************************************
+*                                 Quote
+* ****************************************************************************/
+.container3 {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background-color:#E5E7EB;
+  flex-basis:25%;
+  padding:100px;
+}
+
+#quote {
+  font-size:36px;
+  /*color:grey;*/
+  font-style:italic; 
+  font-weight:300;
+  color:#1F2937;
+  width:750px;
+}
+
+#author {
+  align-self:end;
+  padding-right:500px;
+  font-weight:bold;
+  font-size:20px;
+}
+
+/********************************************************************************
+*                               Call to Action (blue box)
+* ******************************************************************************/
+.container4 {
+  flex-basis:20%;
+  display:flex;
+  justify-content:center;
+  /*background-color:mediumseagreen;*/
+  padding:100px;
+  color:#F9FAF8;
+}
+
+.blue-box {
+  background-color:#3882F6;
+  display:flex;
+  padding:16px;
+  width:800px;
+  height:100px;
+  border-radius:8px;
+
+  padding-right:80px;
+  align-items:center;
+}
+
+.left-text {
+  padding-left:100px;
+}
+
+#action {
+  font-size:18px;
+  font-weight:bold;
+}
+
+#bluebox-button {
+  margin-left:auto;
+  color:#F9FAF8;
+  background-color:#3882F6;
+  width:100px;
+  border-radius:4px;
+  border:2px solid #F9FAF8;
+  /*border-color:#F9FAF8;*/
+}
+
+/******************************************************************************************
+*                               Footer
+*******************************************************************************************/
+
+.footer {
+  flex-basis:5%;
+  display:flex;
+  text-align:center;
+  background-color:#1F2937;
+  justify-content:center;
+  align-items:center;
+  color:#E5E7EB;
+  padding:24px;
+}
+
